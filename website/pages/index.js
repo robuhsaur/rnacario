@@ -12,21 +12,21 @@ export default function Home() {
 
       <header className={styles.header}>
         <a
-          href="https://www.linkedin.com/in/my-profile"
+          href="https://www.linkedin.com/in/robert-nacario"
           target="_blank"
           rel="noopener noreferrer"
         >
           LinkedIn
         </a>
         <a
-          href="https://github.com/my-profile"
+          href="https://github.com/robuhsaur"
           target="_blank"
           rel="noopener noreferrer"
         >
           GitHub
         </a>
         <a
-          href="https://gitlab.com/my-profile"
+          href="https://gitlab.com/robuhsaur"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -37,14 +37,13 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.main}>
           <h1 className={styles.title}>Robert Nacario</h1>
-          <p className={styles.description}>nursing to</p>
-          <p className={styles.description}>software engineer</p>
+          <p className={styles.description}>Software Engineer</p>
         </div>
 
         <section id="projects" className={styles.section}>
           <h2>Projects</h2>
           <p>Cards that map over all projects here</p>
-          {/* Insert your projects here */}
+          {/* put projects here */}
         </section>
 
         <section id="skills" className={styles.section}>
@@ -52,16 +51,14 @@ export default function Home() {
           <p>Check out my technical skills and areas of expertise.</p>
           {"Reactjs Nextjs "}
         </section>
-
-        <section id="contact" className={styles.section}>
-          <h2>Contact</h2>
-          <p>Feel free to get in touch with me.</p>
-          {/* Insert your contact form or information here */}
-        </section>
       </main>
 
       <footer className={styles.footer}>
-        <a href="https://www.linkedin.com/in/my-profile">LinkedIN</a>
+        <section id="contact" className={styles.footer}>
+          <h2>Contact</h2>
+
+          {/* put info here] */}
+        </section>
       </footer>
     </div>
   );
