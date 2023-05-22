@@ -1,5 +1,11 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import styled from "styled-components";
+// import { RedText } from "../components/styles.js";
+
+const RedText = styled.span`
+  color: red;
+`;
 
 export default function Home() {
   return (
@@ -38,6 +44,7 @@ export default function Home() {
         <div className={styles.main}>
           <h1 className={styles.title}>Robert Nacario</h1>
           <p className={styles.description}>Software Engineer</p>
+          <RedText> This should be red </RedText>
         </div>
 
         <section id="projects" className={styles.section}>
